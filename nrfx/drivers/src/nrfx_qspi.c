@@ -45,10 +45,10 @@
 #define QSPI_MEM_STATUSREG_WIP_Pos 0x01
 
 /** @brief Default time used in timeout function. */
-#define QSPI_DEF_WAIT_TIME_US 10
+#define QSPI_DEF_WAIT_TIME_US 100
 
 /** @brief Default number of tries in timeout function. */
-#define QSPI_DEF_WAIT_ATTEMPTS 100
+#define QSPI_DEF_WAIT_ATTEMPTS 1000
 
 /**
  * @brief Macro for initializing a QSPI pin.
